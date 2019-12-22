@@ -1,0 +1,195 @@
+
+
+@keyframes box-shadow {
+    0% {
+        transform: translateZ(0);
+        box-shadow:
+            0 0 0 #2cfcfd,
+            0 0 0 #2cfcfd,
+            0 0 0 #fb203b,
+            0 0 0 #fb203b;
+    }
+
+    20% {
+        transform: translateZ(-1em);
+        box-shadow:
+             0.12em 0.12em 0 #fb203b,
+             0.15em 0.15em 0 #fb203b,
+             -0.12em -0.12em 0 #2cfcfd,
+             -0.2em -0.2em 0 #2cfcfd;
+    }
+
+    40% {
+        transform: translateZ(0.5em);
+        box-shadow:
+             -0.05em -0.05em 0 #fb203b,
+             -0.07em -0.07em 0 #fb203b,
+             0.05em 0.05em 0 #2cfcfd,
+             0.07em 0.07em 0 #2cfcfd;
+    }
+
+   60% {
+        transform: translateZ(-0.25em);
+        box-shadow:
+             0.02em 0.02em 0 #fb203b,
+             0.05em 0.05em 0 #fb203b,
+             -0.02em -0.02em 0 #2cfcfd,
+             -0.05em -0.05em 0 #2cfcfd;
+    }
+
+    80% {
+        transform: translateZ(0);
+        box-shadow:
+            0 0 0 #fb203b,
+            0 0 0 #fb203b,
+            0 0 0 #2cfcfd,
+            0 0 0 #2cfcfd;
+    }
+}
+
+@keyframes small-box-shadow {
+    0% {
+        box-shadow:
+            0 0 0 #2cfcfd,
+            0 0 0 #2cfcfd,
+            0 0 0 #fb203b,
+            0 0 0 #fb203b;
+    }
+
+    20% {
+        box-shadow:
+             0.08em 0.08em 0 #fb203b,
+             0.16em 0.16em 0 #fb203b,
+             -0.08em -0.08em 0 #2cfcfd,
+             -0.16em -0.16em 0 #2cfcfd;
+    }
+
+    40% {
+        box-shadow:
+             -0.02em -0.02em 0 #fb203b,
+             -0.04em -0.04em 0 #fb203b,
+             0.02em 0.02em 0 #2cfcfd,
+             0.04em 0.04em 0 #2cfcfd;
+    }
+
+   60% {
+        box-shadow:
+             0.01em 0.01em 0 #fb203b,
+             0.02em 0.02em 0 #fb203b,
+             -0.01em -0.01em 0 #2cfcfd,
+             -0.02em -0.02em 0 #2cfcfd;
+    }
+
+    80% {
+        box-shadow:
+            0 0 0 #fb203b,
+            0 0 0 #fb203b,
+            0 0 0 #2cfcfd,
+            0 0 0 #2cfcfd;
+    }
+}
+
+@keyframes text-shadow {
+    0% {
+        transform: translateZ(0);
+        text-shadow:
+            0 0 0 #2cfcfd,
+            0 0 0 #2cfcfd,
+            0 0 0 #fb203b,
+            0 0 0 #fb203b;
+    }
+
+    20% {
+        transform: translateZ(-1em);
+        text-shadow:
+             0.08em 0 0 #fb203b,
+             0.16em 0 0 #fb203b,
+             -0.08em 0 0 #2cfcfd,
+             -0.16em 0 0 #2cfcfd;
+    }
+
+    40% {
+        transform: translateZ(0.5em);
+        text-shadow:
+             -0.02em 0 0 #fb203b,
+             -0.04em 0 0 #fb203b,
+             0.02em 0 0 #2cfcfd,
+             0.04em 0 0 #2cfcfd;
+    }
+
+   60% {
+        transform: translateZ(-0.25em);
+        text-shadow:
+             0.01em 0 0 #fb203b,
+             0.02em 0 0 #fb203b,
+             -0.01em 0 0 #2cfcfd,
+             -0.02em 0 0 #2cfcfd;
+    }
+
+    80% {
+        transform: translateZ(0);
+        text-shadow:
+            0 0 0 #fb203b,
+            0 0 0 #fb203b,
+            0 0 0 #2cfcfd,
+            0 0 0 #2cfcfd;
+    }
+}
+
+@keyframes text-shadow-long-delay {
+    0% {
+        text-shadow:
+            0 0 0 #2cfcfd,
+            0 0 0 #2cfcfd,
+            0 0 0 #fb203b,
+            0 0 0 #fb203b;
+    }
+
+    5% {
+        text-shadow:
+             0.08em 0 0 #fb203b,
+             0.16em 0 0 #fb203b,
+             -0.08em 0 0 #2cfcfd,
+             -0.16em 0 0 #2cfcfd;
+    }
+
+    10% {
+        text-shadow:
+             -0.02em 0 0 #fb203b,
+             -0.04em 0 0 #fb203b,
+             0.02em 0 0 #2cfcfd,
+             0.04em 0 0 #2cfcfd;
+    }
+
+   15% {
+        text-shadow:
+             0.01em 0 0 #fb203b,
+             0.02em 0 0 #fb203b,
+             -0.01em 0 0 #2cfcfd,
+             -0.02em 0 0 #2cfcfd;
+    }
+
+    20% {
+        text-shadow:
+            0 0 0 #fb203b,
+            0 0 0 #fb203b,
+            0 0 0 #2cfcfd,
+            0 0 0 #2cfcfd;
+    }
+
+    100% {
+        text-shadow:
+            0 0 0 #fb203b,
+            0 0 0 #fb203b,
+            0 0 0 #2cfcfd,
+            0 0 0 #2cfcfd;
+    }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+}

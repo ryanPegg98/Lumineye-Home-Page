@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html class="gr__africanimpact_hanovercrm_com" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  
+<script type="text/javascript" src="Hanover%20|%20African%20Impact_files/bdbd3a392c.js"></script><script src="Hanover%20|%20African%20Impact_files/nr-1130.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bdbd3a392c","applicationID":"53229299","transactionName":"cgtbEkJbCQhXEBZYUVwNW0lFRwAWQU1KUVpG","queueTime":0,"applicationTime":104,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+  
+  <link rel="stylesheet" href="Hanover%20|%20African%20Impact_files/shim.css"><link rel="stylesheet" media="all" href="Hanover%20|%20African%20Impact_files/admin-b7b9efae273a5454a865c7f198a3bb4b5576a68ee66b2522879a4b.css" data-turbolinks-track="reload">
+  <script src="Hanover%20|%20African%20Impact_files/jsapi.js" data-turbolinks-track="reload"></script>
+<script src="Hanover%20|%20African%20Impact_files/chartkick-2719f6045b4cedb87628507fd65e27b1fe8d1f8563a24a97937.js" data-turbolinks-track="reload"></script>
+<script src="Hanover%20|%20African%20Impact_files/admin-3e42844f5551f3724c0f70fc6efd2c667a23142fd04c80b9199f60b.js" data-turbolinks-track="reload"></script><style type="text/css"></style>
+  
+
+<style media="screen">
+.brand {
+  color: #4e98af !important;
+}
+.brand-color {
+  color: #4e98af !important;
+}
+.brand-background {
+  background: #4e98af !important;
+}
+body{
+  border-color: #4e98af;
+}
+#email-user {
+  color: #4e98af !important;
+}
+div#global_search section.panel header {
+  color: #4e98af;
+  border-bottom-color: #4e98af;
+}
+div#global_search section.panel#search-panel article ul li.truncate > div:nth-of-type(1) {
+  background-color: #4e98af;
+  min-height: 75px;
+  min-width: 75px;
+  max-width: 75px;
+}
+figure.social_feed i.icon-twitter-circled {
+  color: #4e98af;
+}
+figure.social_feed i.icon-facebook-circled {
+  color: #4e98af;
+}
+nav.main ul li.active, nav.main ul li.active {
+  border-left-color: #4e98af;
+}
+header#search i {
+  color: #4e98af;
+}
+
+#framework .panel header{
+  background: #f2f2f2;
+  color: #262A33;
+}
+
+#framework .panel header span{
+  font-size: 1.4em;
+}
+
+#framework a:hover{
+  color: #46899e;
+}
+
+
+section#panel_main div.rotate ul.quick_filters li a:hover, section#panel_main div.rotate ul.quick_filters li a:active {
+  background: #46899e;
+}
+section#panel_main div.rotate ul.quick_filters li.active {
+  background: #9be5fc;
+}
+#profile_navigation ul li i {
+  color: #4e98af;
+}
+a.remove_fields:hover {
+  color: #4e98af;
+}
+table tr th, table.dataTable thead tr th {
+  color: #262A33;
+  background: #f2f2f2;
+}
+.tag.brand:link, .tag.brand:visited {
+  background: #4e98af !important;
+}
+.tag.neutral:link, .tag.neutral:visited {
+  color: #4e98af !important;
+}
+.tag.neutral:hover, .tag.neutral:active {
+  background: #4e98af;
+}
+.tag.inverse{
+  background: #4e98af !important;
+}
+div.profile_picture_wrap img.profile_picture {
+  border-color: #4e98af;
+}
+hr {
+  border-color: #4e98af;
+}
+hr.seperate {
+  margin: 2rem 0;
+}
+div.skill_group div.skill i.brand {
+  color: #4e98af;
+}
+div.skill_group div.skill.selected i {
+  color: #4e98af;
+}
+.ui-tooltip {
+  background-color: #f2f2f2;
+}
+section.panel_main a:link:not(.no-format), section.panel_main a:visited:not(.no-format) {
+  color: #4e98af;
+}
+
+#framework .panel article a.icon:hover{
+  border: 1px solid #4e98af;
+}
+
+.key_links i {
+  color: #4e98af !important;
+}
+
+section#panel_main div.rotate ul.quick_filters li a:link, section#panel_main div.rotate ul.quick_filters li a:visited {
+  background: #4e98af;
+}
+
+section#panel_main div.rotate ul.quick_filters li a:hover, section#panel_main div.rotate ul.quick_filters li a:active {
+  background: #46899e !important;
+}
+
+.quick_filters li a.active {
+  background-color:  #46899e  !important;
+}
+
+div.uploader {
+  border-style: solid;
+  border-color: #4e98af;
+  border-width: 5px;
+  width: 800px;
+  height: 500px;
+}
+
+section.panel_profile_detail .social_feed .meter span.total {
+  color: #4e98af;
+}
+
+.deck {
+  background: #F2F2F2;
+  border-left: 5px solid #4e98af;
+}
+
+#new-application {
+  display: inherit;
+}
+
+table tr td.word-wrap {
+  word-wrap: break-word;
+}
+
+textarea.textarea-big {
+  min-height: 200px;
+}
+
+#framework a {
+  color: #4e98af;
+}
+#framework .btn-brand {
+  background: #4e98af;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+#framework .btn-brand:hover {
+  background: #9be5fc;
+  color: #46899e;
+}
+#framework .btn-blank {
+  color: #4e98af;
+}
+#framework .add_sort {
+  color: #4e98af !important;
+}
+#framework .tag {
+  background: #4e98af;
+}
+#framework div.data_table_filter select, #framework div.data_table_filter .datepicker, #framework div.data_table_filter input[type="text"], #framework div.data_table_filter .item, #framework div.data_table_sort select, #framework div.data_table_sort .datepicker, #framework div.data_table_sort input[type="text"], #framework div.data_table_sort .item, #framework div.data_table_filter input select, #framework div.data_table_filter input .datepicker, #framework div.data_table_filter input input[type="text"], #framework div.data_table_filter input .item, #framework .selectize-control select, #framework .selectize-control .datepicker, #framework .selectize-control input[type="text"], #framework .selectize-control .item, #framework .filter_selectdata_table_filter select, #framework .filter_selectdata_table_filter .datepicker, #framework .filter_selectdata_table_filter input[type="text"], #framework .filter_selectdata_table_filter .item {
+  width: 100% !important;
+  height: 100% !important;
+  border: 1px solid #bbb !important;
+  background-color: #fff !important;
+  color: #222;
+  box-sizing: border-box !important;
+  border-radius: 3px !important;
+  margin: 0 !important;
+  font-size: 16px !important;
+  padding: 0 35px 0 10px !important;
+}
+#framework div.data_table_filter select#add_filter, #framework div.data_table_filter select#add_sort, #framework div.data_table_sort select#add_filter, #framework div.data_table_sort select#add_sort, #framework div.data_table_filter input select#add_filter, #framework div.data_table_filter input select#add_sort, #framework .selectize-control select#add_filter, #framework .selectize-control select#add_sort, #framework .filter_selectdata_table_filter select#add_filter, #framework .filter_selectdata_table_filter select#add_sort {
+  background-color: #4e98af !important;
+  color: #fff !important;
+  border-color: #4e98af !important;
+}
+#framework div.data_table_filter select#add_filter a, #framework div.data_table_filter select#add_sort a, #framework div.data_table_sort select#add_filter a, #framework div.data_table_sort select#add_sort a, #framework div.data_table_filter input select#add_filter a, #framework div.data_table_filter input select#add_sort a, #framework .selectize-control select#add_filter a, #framework .selectize-control select#add_sort a, #framework .filter_selectdata_table_filter select#add_filter a, #framework .filter_selectdata_table_filter select#add_sort a {
+  background: #4e98af !important;
+  color: #fff !important;
+}
+#framework table th {
+  background: #f2f2f2;
+  color: #262A33;
+}
+#framework table th a.icon {
+  background: #4e98af;
+}
+#framework table th a.icon:hover {
+  background: #9be5fc !important;
+}
+#framework input[type="checkbox"].toggle + label:after {
+  color: #4e98af;
+}
+#framework .large-card header {
+  background: #4e98af;
+}
+#framework .large-card header .content span {
+  color: #9be5fc;
+}
+#framework .result > h4 {
+  border-bottom: 2px solid #4e98af;
+}
+#framework .panel-list li:before {
+  color: #4e98af;
+}
+#framework .flat_form .flat_button {
+  background: #4e98af;
+}
+#framework .flat_form .flat_button:hover {
+  background: #9be5fc;
+}
+#framework .benefits_box {
+  background: #4e98af;
+}
+#framework .pay_later_box a {
+  color: #bbb;
+  font-size: 14px;
+}
+#framework .pay_now_button a {
+  color: #fff;
+  background: #4e98af;
+}
+.application_container_show a i.fa.brand, div.skill_group div.skill i.brand {
+  background: transparent !important;
+}
+.favourites-progress-container .favourites-progress-bar .favourites-progress-bar-inner, .participant-progress-container .participant-progress-bar .participant-progress-bar-inner {
+  background: #4e98af;
+}
+span.stage{
+  background: #4e98af;
+}
+.favourites-progress-container .favourites-progress-bar .favourites-progress-bar-inner, .participant-progress-container .participant-progress-bar .participant-progress-bar-inner {
+  background: #4e98af;
+}
+a.brand_link, span.brand_link a {
+  color: #4e98af;
+}
+
+#logged-out header {
+  background-color: #4e98af;
+}
+
+#password_recover .btn {
+    border-color: #4e98af;
+    color: #4e98af;
+    font-size: 0.9rem;
+    background: linear-gradient(to left, transparent 50%, #4e98af 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #4e98af;
+}
+
+#password_recover .btn:hover {
+  color: white;
+  border-color: #4e98af;
+}
+
+#logged-out input[type='submit'] {
+  border-color: #4e98af;
+  color: #4e98af;
+  font-size: 0.9rem;
+  background: linear-gradient(to left, transparent 50%, #4e98af 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: #10a2e2;
+  color: #4e98af;
+}
+
+#logged-out input[type='submit']:hover {
+  background-position: left bottom;
+  color: white;
+  border-color: #4e98af;
+}
+
+.go.go-signup {
+  border: 2px solid #4e98af;
+  border-radius: 5px;
+  color: #4e98af !important;
+  background-color: transparent;
+  width: 100%;
+  box-shadow: none;
+  text-align: center;
+}
+
+.go.go-signup:hover {
+  background-color: #4e98af;
+  color: #FFF!important;
+}
+
+.go.go-ghost {
+  border: 2px solid #4e98af;
+  border-radius: 5px;
+  color: #4e98af !important;
+  background-color: transparent;
+  width: auto;
+  box-shadow: none;
+  text-align: center;
+  margin-top: 0;
+}
+
+.go.go-ghost:hover {
+  background-color: #4e98af;
+  color: #FFF!important;
+}
+
+a.edit-user {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  border-radius: 50%;
+  margin-top: -3px;
+  margin-right: 15px;
+  position: relative;
+  background-color: #4e98af;
+  color: #FFF;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-user:hover {
+  background-color: #FFF;
+  color: #4e98af;
+}
+
+a.edit-user I {
+  color: #FFF;
+}
+
+
+a.edit-user:hover I {
+  color: #4e98af;
+}
+
+.go.go-brand {
+  background-color: #4e98af;
+  box-shadow: none;
+  border: 2px solid #4e98af;
+}
+
+.go.go-brand:hover {
+  background-color: #FFF;
+  color: #4e98af !important;
+}
+
+.app_avatar_img img, .app_avatar_center_img img {
+  border: 2px solid  #4e98af;
+  -webkit-border-radius: 55px;
+  -moz-border-radius: 55px;
+  border-radius: 55px;
+}
+</style><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bdbd3a392c","applicationID":"53229299","transactionName":"cgtbEkJbCQhXEBZYUVwNW0lFRwAWbQFLXFRFDVoIQxsWDF0V","queueTime":0,"applicationTime":46,"agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bdbd3a392c","applicationID":"53229299","transactionName":"cgtbEkJbCQhXEBZYUVwNW0lFRwAWQU1QV1FUHA==","queueTime":0,"applicationTime":55,"agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bdbd3a392c","applicationID":"53229299","transactionName":"cgtbEkJbCQhXEBZYUVwNW0lFRwAWbQFLXFRFDVoIQxsWDF0V","queueTime":0,"applicationTime":39,"agent":""}</script><meta charset="UTF-8"><title>Hanover | African Impact</title><meta name="csrf-param" content="authenticity_token"><meta name="csrf-token" content="tzvC1m3YreVm3qrGfz+T9KDT4/ymsJbanlE/2yzjzJvpjBvTZE/P3ro3Y0W2emfLTGHZtcixMveBn3vvo9xl2g=="></head>
+
+
+
+
+<body class="saas_hanover african_impact" cz-shortcut-listen="true">
+
+  
+
+
+  <div id="overlay" data-close-action-panel="true"></div>
+  <section class="panel_action">
+
+  <div class="close_container">
+        <a data-close-action-panel="true" href="#"><i class="fa fa-times"> Close</i></a>
+  </div>
+
+
+  <div class="holder">
+    <ul class="tag_list"></ul>
+
+    <div class="template"></div><!-- template -->
+  </div><!-- holder -->
+</section><!-- panel_action -->
+
+  <nav class="main">
+  <a id="logo_holder" href="https://africanimpact.hanovercrm.com/admin/dashboard?locale=en">
+    <img src="Hanover%20|%20African%20Impact_files/c7376dea456c0f2ea461e1dd53cd3c23_small.png" alt="C7376dea456c0f2ea461e1dd53cd3c23 small">
+</a>
+  <div class="main_scroll">
+    <ul class="top">
+        <li id="help-participants" class="inactive">
+          <a href="https://africanimpact.hanovercrm.com/admin/dashboard"><i class="fa fa-home" title=""></i> <span>Dashboard</span></a>
+
+        </li>
+        <li id="help-participants" class="inactive">
+          <a href="https://africanimpact.hanovercrm.com/admin/responsibility/search?data_table_id=1"><i class="fa fa-users" title=""></i> <span>Participants</span></a>
+
+            <ul style="display: none;">
+                  <li><a href="https://africanimpact.hanovercrm.com/admin/responsibility/search">Applications</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/admin/responsibility/search?data_table_key=participant">Participants</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/admin/user_creations/new?user_type=Participant">Create Participant</a></li>
+            </ul>
+        </li>
+        <li id="help-participants" class="inactive">
+          <a href="https://africanimpact.hanovercrm.com/admin/responsibility/search?data_table_id=1"><i class="fa fa-briefcase" title=""></i> <span>Hosts</span></a>
+
+            <ul style="display: none;">
+                  <li><a href="https://africanimpact.hanovercrm.com/employer_management/employers">All Hosts</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/employer_management/types">Host Forms</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/employer_management/employers/new">Create Host</a></li>
+            </ul>
+        </li>
+        <li id="help-participants" class="inactive">
+          <a href="https://africanimpact.hanovercrm.com/partners/partners"><i class="fa fa-handshake-o" title=""></i> <span>Partners</span></a>
+
+        </li>
+        <li id="help-participants" class="inactive">
+          <a href="https://africanimpact.hanovercrm.com/programme_management/programmes"><i class="fa fa-tag" title=""></i> <span>Programs</span></a>
+
+        </li>
+        <li id="help-participants" class="inactive">
+          <a href="https://africanimpact.hanovercrm.com/admin/content_blocks"><i class="fa fa-th-large" title=""></i> <span>Content</span></a>
+
+        </li>
+        <li id="help-participants" class="inactive">
+          <a href="#"><i class="fa fa-cogs" title=""></i> <span>Admin</span></a>
+
+            <ul style="display: none;">
+                  <li><a href="https://africanimpact.hanovercrm.com/downloads">Downloads</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/admin/users">Admin Users</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/data_imports">Import Participants</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/email_configs">Email Templates</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/data_imports_hosts">Import Hosts</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/programme_management/stages">Substages</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/employer_management/type_filterables">Host Portal Filters</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/form_builder/forms">Form Sections</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/channels/1/edit" data-display-action-panel="">System Settings</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/settings">Dev Settings</a></li>
+                  <li><a href="https://africanimpact.hanovercrm.com/admin/mailchimp_settings">Mailchimp</a></li>
+            </ul>
+        </li>
+     </ul>
+  </div>
+
+  <nav class="actions">
+    <a data-hanovertooltip="Notifications" href="https://africanimpact.hanovercrm.com/notifications/allocations">
+      <i class="fa fa-envelope with-badge" aria-hidden="true">
+      </i>
+</a>    <a target="_blank" title="Hanover Knowledge Base" style="font-size:  1.8rem" href="https://hanover.customerly.help/"><i class="fa fa-question"></i></a>
+    
+    <div id="help-settings">
+      <a data-display-action-panel="true" aria-label="Settings" href="https://africanimpact.hanovercrm.com/lock"><i class="fa fa-gear"></i></a>
+    </div>
+    <div id="help-logout">
+    <a aria-label="Log Out" rel="nofollow" data-method="delete" href="https://africanimpact.hanovercrm.com/users/sign_out"><i class="fa fa-power-off"></i></a>
+    </div>
+  </nav><!-- actions -->
+</nav><!-- main -->
+
+  <header id="search" style="position: absolute; z-index: 1">
+    <form action="#" onsubmit="event.preventDefault();">
+      <a id="help-search" aria-label="Search" href="#">
+        <label for="term">
+          <i class="fa fa-search"></i>
+</label></a>      <input type="text" name="term" id="term" placeholder="Search" autocomplete="off">
+    </form>
+
+    <div class="clear"></div>
+    <div id="searchInstruction" style="display:none">Hit enter to search</div>
+
+    <div id="spinner"></div><!-- spinner -->
+    <div class="results"></div><!-- results -->
+  </header>
+
+  <!-- <div class="scroll"> -->
+    <section id="panel_main">
+      <div class="clear"></div>
+
+<div class="alerts"></div>
+<div class="clear"></div>
+
+      
+<div class="form_builder_form user-creations-form">
+  <h1>New Admin</h1>
+
+<form class="new_user" id="new_user" action="/admin/user_creations/step_one" accept-charset="UTF-8" method="post" _lpchecked="1"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="patch"><input type="hidden" name="authenticity_token" value="ryX7FPgYA6fy/SSFwYgR44iC8bXj2af0m+gs97QHBMzxkiIR8Y9hnC4U7QYIzeXcZDDL/I3YA9mEJmjDOzitjQ==">
+  
+
+  <fieldset>
+    <input value="1" type="hidden" name="user[locked_country_id]" id="user_locked_country_id">
+    <input locked_channel_id="1" type="hidden" value="1" name="user[locked_channel_id]" id="user_locked_channel_id">
+    <div class="field">
+        <input value="3" type="hidden" name="user[user_type_id]" id="user_user_type_id">
+    </div><!-- field -->
+  </fieldset>
+  <fieldset>
+    <legend><span class="translation_missing" title="translation missing: en.headings.Registration Information">Registration Information</span></legend>
+    <div class="field">
+      <label class="control-label">First name *</label>
+      <input required="required" type="text" name="user[first_name]" id="user_first_name" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" value="Raoul">
+    </div><!-- field -->
+    <div class="field">
+      <label class="control-label">Last name *</label>
+      <input required="required" type="text" name="user[last_name]" id="user_last_name" value="de Villiers">
+    </div><!-- field -->
+    <div class="field">
+      <label class="control-label">Email *</label>
+      <input type="email" value="raouldevilliers@gmail.com" name="user[email]" id="user_email">
+    </div><!-- field -->
+
+
+  <fieldset>
+  
+    <input type="submit" name="commit" value="Save" data-disable-with="Save">
+</fieldset></fieldset></form></div>
+
+    </section>
+  <!-- </div> -->
+
+    
+
+
+<div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"><div style="display: none;">translation missing: en.headings.Registration Information</div><div>translation missing: en.headings.Registration Information</div></div></body></html>
